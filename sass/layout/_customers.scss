@@ -1,0 +1,37 @@
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers__title {
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-list__item {
+  width: 170px;
+  height: 92px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.customers-list__link {
+  border: 1px solid var(--second-bg-color);
+  border-radius: 4px;
+  color: var(--main-icon-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.customers-list__icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}

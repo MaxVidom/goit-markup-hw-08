@@ -1,0 +1,11 @@
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: var(--accent-color);
+  height: 4px;
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: 0;
+}

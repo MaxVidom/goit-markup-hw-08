@@ -1,0 +1,25 @@
+.social-list {
+  display: flex;
+}
+
+.social-list__item {
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-list__link {
+  border-radius: 50%;
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--second-icon-color);
+  }
+}
+
+.social-list__icon {
+  width: 20px;
+  height: 20px;
+}
