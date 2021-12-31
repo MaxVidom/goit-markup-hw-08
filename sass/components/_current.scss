@@ -1,11 +1,18 @@
-.current::after {
-  content: "";
-  display: block;
-  width: 100%;
-  background-color: var(--accent-color);
-  height: 4px;
-  border-radius: 2px;
+.mob-menu-list__link.current {
+  @media screen and (max-width: 767px) {
+    color: var(--accent-color);
+  }
+}
 
-  position: absolute;
-  bottom: 0;
+@media screen and (min-width: 768px) {
+  .current::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: var(--accent-color);
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+  }
 }
