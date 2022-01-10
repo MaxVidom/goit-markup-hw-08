@@ -403,11 +403,17 @@ body {
 
 .title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 36px;
+  }
 }
 
 .icon-link {
@@ -584,13 +590,19 @@ body {
 
 .checkbox-wrap__text {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .checkbox-wrap__text {
+    font-size: 14px;
+  }
 }
 
 .checkbox-wrap__link {
@@ -1333,7 +1345,19 @@ body {
 }
 
 .portfolio__portfolio-list-button {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__portfolio-list-button {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__portfolio-list-button {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-list-button__btn {
